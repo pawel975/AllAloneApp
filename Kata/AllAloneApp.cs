@@ -18,28 +18,43 @@ namespace AllAloneApp
     {
         static public List<Point> analyzedPoints = new List<Point>();
         static public Point potusCoords = new Point();
+        static public bool isPotusAlone = true;
 
-        static public void analyzeNearPoints(Point point)
+        static public void analyzeNearPoints(Point point, char[][] house)
         {
+            // Checks if point was already analyzed
             if (!analyzedPoints.Contains(point))
             {
                 analyzedPoints.Add(point);
-            }
 
-            Point UpPoint = new Point(point.X, point.Y + 1);
-            Point DownPoint = new Point(point.X, point.Y - 1);
-            Point LeftPoint = new Point(point.X - 1, point.Y);
-            Point RightPoint = new Point(point.X + 1, point.Y);
+                Point UpPoint = new Point(point.X, point.Y + 1);
+                Point DownPoint = new Point(point.X, point.Y - 1);
+                Point LeftPoint = new Point(point.X - 1, point.Y);
+                Point RightPoint = new Point(point.X + 1, point.Y);
 
-            List<Point> nearPoints = new List<Point>() { UpPoint, DownPoint, LeftPoint, RightPoint };
+                List<Point> nearPoints = new List<Point>() { UpPoint, DownPoint, LeftPoint, RightPoint };
 
-            foreach (Point nearPoint in nearPoints)
-            {
-                if (nearPoint == 'o')
+                foreach (Point nearPoint in nearPoints)
                 {
+                    var nearPointElement = house[nearPoint.X][nearPoint.Y];
 
+                    if (nearPointElement == 'o')
+                    {
+                        isPotusAlone = false;
+                        break;
+                    }
+                    else if (nearPointElement == '#')
+                    {
+                        analyzedPoints.Add(nearPoint);
+                    }
+                    else
+                    {
+                        analyzeNearPoints(nearPoint, house);
+                    }
                 }
+
             }
+
         }
 
         static public bool AllAlone(char[][] house)
