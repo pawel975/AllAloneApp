@@ -59,11 +59,12 @@ namespace AllAloneApp
 
         static public bool AllAlone(char[][] house)
         {
+            // Search for Potus in array
             for (int i = 0; i < house.Length; i++)
             {
                 for (int j = 0; j < house[i].Length; j++)
                 {
-                    if (house[i][j] == '#')
+                    if (house[i][j] == 'X')
                     {
                         potusCoords.X = i;
                         potusCoords.Y = j;
@@ -71,8 +72,10 @@ namespace AllAloneApp
                 }
             }
 
-            // Your code here
-            return false;
+            // Start to search for elfes starting with Potus location
+            analyzeNearPoints(potusCoords, house);
+            
+            return isPotusAlone;
         }
     }
 }
