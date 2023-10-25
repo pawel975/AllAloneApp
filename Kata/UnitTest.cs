@@ -15,7 +15,7 @@ public class ExampleTest
             "#                                 #".ToCharArray(),
             "###################################".ToCharArray()
         };
-        Assert.AreEqual(true, Dinglemouse.AllAlone(house));
+        Assert.AreEqual(true, Program.AllAlone(house));
     }
 
     [Test]
@@ -32,6 +32,6 @@ public class ExampleTest
             "   #                  X      #".ToCharArray(),
             "   ###########################".ToCharArray()
         };
-        Assert.AreEqual(false, Dinglemouse.AllAlone(house));
+        Assert.AreEqual(false, Program.AllAlone(house));
     }
 }
