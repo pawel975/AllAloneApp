@@ -1,0 +1,14 @@
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\obj\Debug\net6.0\AllAloneConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\obj\Debug\net6.0\AllAloneConsole.AssemblyInfoInputs.cache
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\obj\Debug\net6.0\AllAloneConsole.AssemblyInfo.cs
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\obj\Debug\net6.0\AllAloneConsole.csproj.CoreCompileInputs.cache
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\bin\Debug\net6.0\AllAloneConsole.exe
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\bin\Debug\net6.0\AllAloneConsole.deps.json
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\bin\Debug\net6.0\AllAloneConsole.runtimeconfig.json
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\bin\Debug\net6.0\AllAloneConsole.dll
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\bin\Debug\net6.0\AllAloneConsole.pdb
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\obj\Debug\net6.0\AllAloneConsole.dll
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\obj\Debug\net6.0\refint\AllAloneConsole.dll
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\obj\Debug\net6.0\AllAloneConsole.pdb
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\obj\Debug\net6.0\AllAloneConsole.genruntimeconfig.cache
+C:\Users\pawel\source\repos\Kata\AllAloneConsole\obj\Debug\net6.0\ref\AllAloneConsole.dll
