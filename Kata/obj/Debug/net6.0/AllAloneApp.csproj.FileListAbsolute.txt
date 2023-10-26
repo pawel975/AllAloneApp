@@ -1,11 +1,5 @@
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\testhost.exe
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\testhost.dll
-C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\NUnit3.TestAdapter.dll
-C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
-C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\nunit.engine.dll
-C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\nunit.engine.api.dll
-C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\nunit.engine.core.dll
-C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\testcentric.engine.metadata.dll
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\AllAloneApp.deps.json
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\AllAloneApp.runtimeconfig.json
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\AllAloneApp.dll
@@ -20,7 +14,6 @@ C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\Microsoft.TestPlatform.Ut
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\NuGet.Frameworks.dll
-C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\nunit.framework.dll
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Users\pawel\source\repos\Kata\Kata\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll

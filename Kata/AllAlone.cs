@@ -22,8 +22,10 @@ namespace AllAloneApp
         static public bool isPotusAlone = true;
         static public bool isSearchEnded = false;
 
-        static public bool analyzeNearPoints(Point point, char[][] house)
+        static public void analyzeNearPoints(Point point, char[][] house)
         {
+            Console.WriteLine("Start of analyze function");
+
             if (!isSearchEnded)
             {
                 // Checks if point was already analyzed
@@ -56,21 +58,13 @@ namespace AllAloneApp
                         }
                         else
                         {
-                            if (!isSearchEnded)
-                            {
-                                analyzeNearPoints(nearPoint, house);
-                            }
+                            analyzeNearPoints(nearPoint, house);
                         }
                     }
-
-                    //isSearchEnded = true;
-
                 }
-
             }
 
-            return isPotusAlone;
-
+            Console.WriteLine("End of analyze function");
         }
 
         static public bool AllAlone(char[][] house)
@@ -89,25 +83,26 @@ namespace AllAloneApp
             }
 
             // Start to search for elfes starting with Potus location
-            return analyzeNearPoints(potusCoords, house);
+            analyzeNearPoints(potusCoords, house);
+
+            Console.WriteLine("End of program");
+
+            return isPotusAlone;
         }
 
-        //private static void Main()
-        //{
 
-        //    char[][] house = {
-        //    "#################             ".ToCharArray(),
-        //    "#     o         #   o         ".ToCharArray(),
-        //    "#          ######        o    ".ToCharArray(),
-        //    "####       #                  ".ToCharArray(),
-        //    "   #       ###################".ToCharArray(),
-        //    "   #                         #".ToCharArray(),
-        //    "   #                  X      #".ToCharArray(),
-        //    "   ###########################".ToCharArray()
-        //    };
+        public void Main(string[] args)
+        {
+            char[][] house = {
+            "  o                o        #######".ToCharArray(),
+            "###############             #     #".ToCharArray(),
+            "#             #        o    #     #".ToCharArray(),
+            "#  X          ###############     #".ToCharArray(),
+            "#                                 #".ToCharArray(),
+            "###################################".ToCharArray()};
 
-        //    AllAlone(house);
-        //}
+            AllAlone(house);
+        }
     }
 }
 
